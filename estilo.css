@@ -1,0 +1,361 @@
+body {
+	background: #e8e8e8;
+	background: url(imagenes/cesped.jpg);
+	
+}  
+input {
+	height: 50px;
+	width: 90%;
+	font-size: 1.6rem;
+	padding-left: 10px;
+	border-radius: 10px;
+	border: 3px #0198E1 solid;
+	background: rgb(5,7,12, 0);
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+.container {
+	list-style: none;
+	padding: 0;
+	background: #092327;
+	width: 90%;
+	max-width: 1500px;
+	margin: auto; 
+	height: 90%;
+}
+
+.navbar{
+	width: 80%;
+	margin: auto;
+	padding: 35px 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	
+}
+
+.logo {
+	width: 100px;
+	cursor: pointer;
+}
+
+.navbar ul li {
+	list-style: none;
+	display: inline-block;
+	margin: 0 20px;
+	position: relative;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: cursive;
+    font-size: 1.5rem;
+}
+
+.navbar ul li::before {
+	content: "";
+	height: 6px;
+	width: 0%;
+	background: white;
+	position: absolute;
+	left: 0;
+	bottom: -12px;
+	transition: 0.4s ease-out;
+}
+
+.navbar ul li:hover::before {
+	width: 100%;
+}
+
+.marco1 {
+    border: 3px solid black;
+    list-style: none;
+	padding: 0;
+	background:#092327;
+	width: 30%;
+	max-width: 1000px;
+	margin: 1px;
+}
+
+h1{
+  font-family: Arial;
+  font-size: 3vw;
+  color: white;
+
+}
+
+h2{
+  font-size: 4vw;
+  color: white;
+}
+
+h3 {
+	font-family: Tw Cen MT;
+	font-size: 3vw;
+	color: white;
+}
+
+p{
+  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 2.1vw;
+  color: white;
+}
+
+.pof {
+	font-size: 3vw;
+	color: white;
+}
+
+.img2 {
+	width: 27px;
+}
+
+.img3 {
+	width: 400px;
+	height: 450px;
+	margin: 10px;
+}
+
+h3 {
+	font-size: 3vw;
+	color: white;
+}
+
+.hola {
+	font-size: 2vw;
+	color: white;
+}
+
+.texto {
+    -webkit-text-fill-color: white; 
+    -webkit-text-stroke: 2px #092327;
+    font-family: Verdana;
+}
+
+.class {
+	font-size: 3vw;
+}
+
+.marco2 {
+    border: 3px solid darkred;
+    list-style: none;
+	padding: 0;
+	background: black;
+	width: 90%;
+	max-width: 1000px;
+	margin: none;
+}
+
+.marco3 {
+    border: 3px solid darkred;
+    list-style: none;
+	padding: 0;
+	background:#092327;
+	width: 30%;
+	max-width: 500px;
+	margin: 1px;
+}
+
+.cd {
+    font-family: font-family: 'Montserrat', sans-serif;
+}
+
+.responsiva {
+max-width: 40%;
+ height: auto;
+}
+
+@media (max-width: 1366px){
+  font-size: 18px;
+  height: 200px;
+  width: 300px;
+}
+@media (max-width: 1023px){ 
+  font-size: 17px;
+  height: 280px;
+  width: 380px;
+}
+@media (max-width: 1268px){ 
+  font-size: 18px;
+  height: 200px;
+  width: 300px;
+}
+
+.marcof {
+    border: 6px solid black;
+    list-style: none;
+	padding: 0;
+	background:#092327;
+	width: 35%;
+	max-width: 1000px;
+	margin: 1px;
+}
+.textof {
+	font-size: 2.6vw;
+    -webkit-text-fill-color: red; 
+    -webkit-text-stroke: 1px white;
+    font-family: Verdana;
+}
+
+.marcoe {
+    border: 3px solid white;
+    list-style: none;
+	padding: 0;
+	background:#092327;
+	width: 30%;
+	max-width: 1000px;
+	margin: 1px;
+}
+
+.caja1 {
+	border: 3px;
+    list-style: none;
+	padding: 0;
+	width: 30%;
+	height: 30%;
+	margin: 1px;
+	float: left;
+	border-right: thick solid #092327;
+    height:70%;
+    left: 1%;
+    position: absolute;
+}
+
+.caja2 {
+    border: 3px;
+    list-style: none;
+	padding: 0;
+	width: 30%;
+	height: 30%;
+	margin: 1px;
+	float: left;
+	border-right: thick solid #092327;
+    height:70%;
+    left: 35%;
+    position: absolute;
+}
+
+.caja3 {
+    border: 3px;
+    list-style: none;
+	padding: 0;
+	width: 30%;
+	height: 30%;
+	margin: 1px;
+	float: left;
+    height:85%;
+    left: 67%;
+    position: absolute;
+}
+.imgop {
+   float: center;
+   width: 30%;
+}
+.contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+.texto-encima{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.centrado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.largo {
+	height: 300px;
+	width: 1348px;
+	opacity: 70%;
+	border: 3px solid #092327;
+    list-style: none;
+	padding: 0;
+}
+.logo1 {
+	float: center;
+	width: 40px;
+	height: 40px;
+}
+h4 {
+	font-size: 1.3vw;
+	color: white;
+}
+.BORRAR {
+	width: 350px;
+	height: 350px;
+}
+.pagina {
+	width: 100%;
+	background-color:#0a141d;
+}
+.pagina .grupo1 {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding:  45 0px;
+}
+.pagina .grupo1 .box figure{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.pagina .grupo1 .box figure img{
+	width: 200px;
+	height: 200px;
+}
+.pagina .grupo1 .box h2 {
+	color: #fff;
+	margin-bottom: 25px;
+	font-size: 25px;
+}
+.pagina .grupo1 .box p{
+	color: #efefef;
+	margin-bottom: 20px;
+	font-size: 19px
+
+}
+.pagina .grupo1 .social a{
+	display: inline-block;
+	text-decoration: none;
+	width: 45px;
+	height: 45px;
+	line-height: 45px;
+	color: #fff;
+	margin-right: 10px;
+	background-color: #0d2033;
+	text-align:center;
+	transition: all 300ms ease;
+}
+.pagina .grupo1 .social a:hover{
+	color: aqua;
+}
+.pagina .grupo2 {
+     background-color: #0a1a2a;
+     padding: 15px 10px;
+     text-align: center;
+     color: #fff;
+}
+.pagina .grupo2 small{
+	font-size: 15px
+}
+@media screen and (max-width: 800px){
+	.pagina .grupo1 {
+    width: 90%;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 30px;
+    padding:  35 0px;
+}
